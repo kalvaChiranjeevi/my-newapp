@@ -1,0 +1,15 @@
+.header-component{
+    width:1100px;
+    height:250px;
+    background:cadetblue;
+    margin:auto;
+    display:inline-block;
+}
+
+.header-component h1{
+text-align:center;
+margin-top:75px;
+color:#fff;
+font-size:48px;
+
+}

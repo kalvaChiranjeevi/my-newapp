@@ -1,0 +1,33 @@
+.launch-view{
+    width:80%;
+    height: 200px;
+    display: flex;
+    background:#fff;
+    box-shadow: 1px 1px 9px 1px darkgrey;
+
+    margin:26px auto;
+    padding:10px;
+
+}
+
+.launch-view img{
+    width:200px;
+    height:200px;
+}
+.content{
+    margin-left:20px;
+}
+.content .info{
+    display:flex;
+    justify-content: space-between;
+    font-size:12px;
+    color: cadetblue;
+}
+.content p{
+    line-height: 30px;    
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+          
+}
