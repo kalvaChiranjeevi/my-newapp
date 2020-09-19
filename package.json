@@ -2,6 +2,7 @@
   "name": "my-newapp",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://github.com/kalvaChiranjeevi/my-newapp.git"
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -17,6 +18,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
