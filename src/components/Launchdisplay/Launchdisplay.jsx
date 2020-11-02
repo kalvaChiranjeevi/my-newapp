@@ -74,7 +74,7 @@ export class Launchdisplay extends React.Component{
         }
 
         return(
-            <div className={single_launch} style={single_launch}>
+            <div className="single-launch" style={single_launch}>
                 { this.misionAttibutes('Mission Name', this.state.info.mission_name) }
 
                 
