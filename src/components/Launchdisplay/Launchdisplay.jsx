@@ -52,7 +52,7 @@ export class Launchdisplay extends React.Component{
        
     render(){
         const single_launch = {
-            padding:'10px',
+            padding:'25px 15px',
             background:'white',
             marginTop:'20px',
             boxShadow:'2px 2px 10px 2px grey',

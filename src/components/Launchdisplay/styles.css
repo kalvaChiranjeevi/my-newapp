@@ -7,11 +7,13 @@
     width:800px;
     height: 400px;
 }
-.single-launc h1{
+.single-launch h1{
     font-size: 22px;
 
 }
-.single-launc p{
+.single-launch p{
     font-size: 16px;
-    margin-bottom: 27px
+    margin-bottom: 27px;
+
+    line-height: 22px;
 }
